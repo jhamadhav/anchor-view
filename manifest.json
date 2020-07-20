@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Anchor view",
+    "description": "Show a popup with anchor links unless told not to.",
+    "version": "2.0",
+    "homepage_url": "https://jhamadhav.com/anchor-view",
+    "icons": {
+        "32": "icons/anchor-32.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/anchor-32.png",
+        "theme_icons": [
+            {
+                "light": "icons/anchor-32.png",
+                "dark": "icons/anchor-32.png",
+                "size": 32
+            }
+        ],
+        "default_title": "Anchor-view",
+        "default_popup": "popup/choose_anchor.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
+}
