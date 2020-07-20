@@ -7,3 +7,6 @@ To do that it takes the anchor tag and when you take your cursor on it, the url 
 
 Demo Image : <br/>
 ![Sample image](images\anchor-view-demo.png)
+
+Download the extension : <br/>
+ * [For firefox](https://addons.mozilla.org/en-US/firefox/addon/anchor-view/) 
