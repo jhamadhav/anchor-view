@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Anchor view",
     "description": "Show a popup with anchor links unless told not to.",
-    "version": "2.0",
+    "version": "2.2",
     "homepage_url": "https://jhamadhav.com/anchor-view",
     "icons": {
         "32": "icons/anchor-32.png"
@@ -26,6 +26,9 @@
         {
             "matches": [
                 "<all_urls>"
+            ],
+            "css": [
+                "content-styles/main.min.css"
             ],
             "js": [
                 "content-script.js"
